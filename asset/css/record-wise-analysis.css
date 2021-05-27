@@ -1,0 +1,46 @@
+.table-container{
+    margin-top: 100px;
+}
+h1{
+    color: coral;
+}
+.table{
+    margin-top: 40px;
+    margin-left: 55%;
+    position: absolute;
+}
+.graph-container{
+    margin-top: 300px;
+}
+.table-info{
+    margin-left: 30px;
+    margin-top: 150px;
+    padding: 10px;
+   
+}
+.table-info h3{
+    font-size: 1.3rem;
+}
+.table-info ul li{
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+.column {
+    float: left;
+    width: 28.33%;
+    padding: 30px;
+  }
+  .column1 {
+    float: left;
+    width: 28.33%;
+    padding: 30px;
+    padding-left: 200px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
